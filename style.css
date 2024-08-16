@@ -26,13 +26,42 @@ body{
  }
 .header-image-wrapper img{
   width: 100%;
+  position: relative;
 }
 .product-card{
   width: 25%;
  padding: 12px;
-  background-color: aqua;
+  background-color:white;
   margin: 13.5px;
 }
 .ms-products-wrapper{
   display: flex;
+  
+}
+
+.box{
+  background-color: black;
+
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.div{
+  background-color: red;
+
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+
+}
+
+.slider-img-overlay{
+top: 50%;
+  position: absolute;
+transform: translateX(-50%);
+  left: 50%;
 }
