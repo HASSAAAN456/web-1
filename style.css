@@ -60,8 +60,10 @@ left: 50%;
 }
 
 .slider-img-overlay{
-top: 50%;
+ 
+  width: 40%;
+top: 40%;
   position: absolute;
-transform: translateX(-50%);
-  left: 50%;
+transform: translateY(-50%);
+  left: 7%;
 }
